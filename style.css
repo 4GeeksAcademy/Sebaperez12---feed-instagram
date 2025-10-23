@@ -1,107 +1,95 @@
 body {
     background-color: black;
     font-size: 13.2px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-    .post {
+.post {
+    width: 380px;
+    height: 500px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 0%;
+}
 
-        width: 380px;
-        height: 500px ;
-        margin: auto;
-        background-color: rgb(255, 255, 255);
-        padding: 0%;
+.post-header {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
 
-    }
+.post-img {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+}
 
-    .post-header {
-        display: flex;
-        height: 50px;
-        width: 100%;
-        background-color: rgb(255, 255, 255);
-        
-    }
+img {
+    width: 380px;
+}
 
-    .post-img {
-        width: 100%;
-        height: 250px;
-        background-color: rgb(255, 255, 255);
+.post-body {
+    width: 100%;
+    height: 160px;
+    background-color: rgb(255, 255, 255);
+}
 
-    }
+.post-icon {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+}
 
-    img {
-        width:380px;
-    }
+.base-icons {
+    font-size: 20px;
+    top: 7px;
+    position: relative;
+    left: 8px;
+    padding: 3px;
+}
 
-    .post-body {
-        width: 100%;
-        height: 160px;
-        background-color: rgb(255, 255, 255);
-        
-    }
+.base-icons-save {
+    margin-left: auto;
+    font-size: 22px;
+    top: 8px;
+    position: relative;
+    right: 11px;
+}
 
+p {
+    width: 350px;
+    margin: auto;
+    padding-top: 17px;
+}
 
-    .post-icon {
-        position: relative;
-        display: flex;
-        width: 100%;
-        height: 40px;
-        background-color: rgb(255, 255, 255);
-        
-        
-    }
+.icono-html5 {
+    position: relative;
+    font-size: 30px;
+    color: black;
+    top: 10px;
+    padding: 0px;
+    left: 5px;
+}
 
-    .base-icons {
-        font-size: 20px;  
-        top: 7px;
-        position:relative;  
-        left:8px;
-        padding: 3px;
+.menu-vertical {
+    position: relative;
+    margin-left: auto;
+    color: black;
+    top: 15px;
+    font-size: 20px;
+    right: 10px;
+}
 
-    }
-
-    .base-icons-save {
-        margin-left: auto;
-        font-size: 22px;  
-        top: 8px;
-        position:relative;  
-       right: 11px;   
-
-    }
-
-    p { 
-      
-        width: 350px;
-        margin: auto;
-        padding-top: 17px;  
-        
-    }
-
-    .icono-html5 {
-        position: relative;
-        font-size: 30px;
-        color: black;
-        top: 10px;
-        padding: 0px;
-        left: 5px;
-    }
-    .menu-vertical {
-        position: relative;
-        margin-left: auto;
-        color: black;
-        top: 15px;
-        font-size: 20px;
-        right: 10px;
-
-
-    }
-    .rigoberto {
-        position: relative;
-        width: 40px;
-        height: auto;
-         top:7px;
-        padding: 0px;
-        left: 5px;
-        font-size: 13px;
-        
-    }
+.rigoberto {
+    position: relative;
+    width: 40px;
+    height: auto;
+    top: 7px;
+    padding: 0px;
+    left: 5px;
+    font-size: 13px;
+}
